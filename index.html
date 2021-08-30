@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"> <!--Tag de codificação, interpretação de linguagem-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello, World!</title> <!--Título do Projeto-->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                <div id="logo"></div>
+                <p>Nix</p>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>Início</li>
+                    <li>Sobre a Nix</li>
+                    <li>Entre em contato</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Navegação, leva o usuário ao conteúdo selecionado-->
+        <h1>Dicas de programação Front-end</h1>
+
+        <nav class="principal">
+            <ul>
+                <li>
+                    <a href="#javascript">JavaScript</a>
+                </li>
+
+                <li>
+                    <a href="#html">HTML</a>
+                </li>
+
+                <li>
+                    <a href="#css">CSS</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+              <h2>Olá viajante!</h2>
+              <p></p>
+              <p>Seja bem vinde! Aqui você vai encontrar dicas sobre as principais linguagens de programação Front-end: 
+                  JavaScript, HTML e CSS. (Os conteúdos serão baseados nas instruções fornecidas pelo site: 
+                  <a href="https://developer.mozilla.org/pt-BR/">Mozilla Developer</a>, que é uma fonte de informação confiável para códigos).</p>
+
+              <!--Este banner está sendo alternado com putra imagem no doc. JS-->    
+              <img src="img/banner1.png" alt="Banner principal com imagem de astronauta.">
+    
+            <section id="javascript">
+                <h3 class="titulo-javascript">JavaScript</h3>
+                <p>JavaScript ou JS é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe,
+                mais conhecida como a linguagem de script para páginas Web. O JavaScript é uma linguagem baseada em 
+                protótipos, multi-paradigma e dinâmica, que suporta estilos de orientação a objetos, imperativos
+                e declarativos.</p>
+
+                <p>Não se deve confundir o JavaScript com a linguagem de programação Java. Ambos são marcas registradas da Oracle,
+                no entanto, as duas linguagens de programação possuem sintaxe, semânticas e usos muito diferentes!</p>
+
+            <!--Exemplo 1 de aplicação JS: jogo para advinhar o número entre 0 e 100, em 10 tentativas, que retorna mensagem-->    
+            <div class="exemplo-1">    
+                <h2 id="exemplo-1">Exemplo 1</h2>
+                <h3>Jogo adivinhe o número</h3>
+
+                <p>Viajante, tente advinhar o número selecionado em 10 tentativas ou menos. Nós te ajudaremos indicando 
+                se seu palpite está muito alto ou muito baixo.</p>
+
+                <form id="form">
+                    <div class="form-palpite">
+                        <label for="campoPalpite">Digite um número entre 0 e 100: </label><input type="text" id="campoPalpite" class="campoPalpite">
+                        <input type="submit" value="Enviar palpite" class="envioPalpite">
+                    </div>
+                </form>
+            
+
+
+            <div class="resultadoParas">
+                <p class="palpites"></p>
+                <p class="ultimoResultado"></p>
+                <p class="baixoOuAlto"></p>
+            </div>
+            </div>
+
+            <!--Exemplo 2 de aplicação JS: 
+            <div class="exemplo-2">
+                <h2 id="exemplo-2">Exemplo 2</h2>
+                <h3>Controle de despesas</h3>
+
+                    <div class="container">
+                      <h4>Saldo atual</h4>
+                      
+                      <h1 id="balance" class="balance">R$ 0.00</h1>
+                
+                      <div class="inc-exp-container">
+                        <div>
+                          <h4>Receitas</h4>
+                          <p id="money-plus" class="money plus">+ R$0.00</p>
+                        </div>
+                
+                        <div>
+                          <h4>Despesas</h4>
+                          <p id="money-minus" class="money minus">- R$0.00</p>
+                        </div>
+                      </div>
+                
+                      <h3>Transações</h3>
+                      
+                      <ul id="transactions" class="transactions"></ul>
+                
+                      <h3>Adicionar transação</h3>
+                      
+                      <form id="form">
+                        <div class="form-control">
+                          <label for="text">Nome</label>
+                          <input autofocus type="text" id="text" placeholder="Nome da transação" />
+                        </div>
+                
+                        <div class="form-control">
+                          <label for="amount">Valor <br />
+                            <small>(negativo - despesas, positivo - receitas)</small>
+                          </label>
+                          <input type="number" id="amount" placeholder="Valor da transação" />
+                        </div>
+                
+                        <button class="btn">Adicionar</button>
+                      </form>
+                    </div>
+
+            </div>-->
+
+            
+            </section>
+
+            <section id="html">
+                <h3 class="titulo-html">HTML</h3>
+                <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da Web, que define o significado
+                e a estrutura do conteúdo web. Outras linguagens complementam seu uso e geralmente são usadas para descrever a 
+                aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página web.</p>
+    
+                <p>"Hipertexto"refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites.
+                Links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a outras páginas, você se torna
+                um viajante ativo na world wide web.</p>
+
+                <p>O HTML usa marcação para anotar texto, imagem e outros conteúdos para a exibição em um navegador da Web. A marcação
+                HTML inclui diversos elementos especiais, cada elemento é separado por "tags", com o nome do elemento entre "<" e ">". O 
+                nome de um elemento dentro de uma tag pode ser escrito em maiúscula, minúscula ou ambos.</p>
+            </section>
+
+            <section id="css">
+                <h3 class="titulo-css">CSS</h3>
+                <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata é uma linguagem de estilo usada para descrever a apresentação 
+                de um documento escrito em HTML ou em XML. Ele descreve como os elementos serão mostrados.</p>
+        
+                <p>CSS é uma das principais linguagens da open web e é padronixada em navegadores web de acordo com as especificações da W3C.
+                Desenvolvido em níveis, o CSS1 está atualmente obsoleto, o CSS2.1 é uma recomendação e o CSS3, agora dividido em pequenos
+                módulos, está progredindo para a sua padronização.</p>
+            </section>
+
+        </section>
+
+        <h3 class="outras-linguagens">Veja também outras linguagens de programação:</h3>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/python/default.asp" target="_blank">Python</a>
+                </li>
+
+                <li>
+                    <a href="https://www.w3schools.com/php/default.asp" target="_blank">PHP</a>
+                </li>
+
+                <li>
+                    <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" target="_blank">Bootstrap</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h4>Receba nossas novidades!</h4>
+
+        <form>
+
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text">
+
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="number">
+
+            <button id="botaoEnviar">Enviar</button>
+        </form>
+
+        <!--Botão de teste com código comentado no doc.JS<button id="botaoUsuario">Mudar usuário</button>-->
+
+        <script type="text/javascript" src="js/script.js"></script>
+
+        <!--FOOTER-->
+    <footer class="rodape">
+            <p>copyrigth</p>
+            <p>2021</p>
+            <p>Nix Hello World</p>
+            <p>All rights reserved</p>
+          </footer>
+    </body>
+</html>
